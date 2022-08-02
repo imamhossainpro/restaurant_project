@@ -1,9 +1,11 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
     <div>
-      <h1>I Am From Header</h1>
+      {" "}
+      <Navigation></Navigation>
     </div>
   );
 };
